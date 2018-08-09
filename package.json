@@ -37,8 +37,6 @@
     "@types/mocha": "^2.2.42"
   },
   "dependencies": {
-    "axios": "0.18.0",
-    "osmosis": "^1.1.8",
-    "webdriverio": "^4.13.1"
+    "axios": "0.18.0"
   }
 }
