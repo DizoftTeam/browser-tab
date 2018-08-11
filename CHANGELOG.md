@@ -1,9 +1,9 @@
 # Change Log
 
-All notable changes to the "browser-tab" extension will be documented in this file.
+## [0.0.1] - 2018-08-11
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+### Added
 
-## [Unreleased]
-
-- Initial release
+- Created extension
+- Base structure
+- Convert `<link>` to `<style>`

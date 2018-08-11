@@ -6,12 +6,31 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/DizoftTeam/browser-tab"
+    "url": "https://github.com/DizoftTeam/browser-tab.git"
   },
+  "homepage": "https://github.com/DizoftTeam/browser-tab/blob/master/README.md",
   "publisher": "DIZOFT",
   "engines": {
     "vscode": "^1.25.0"
   },
+  "author": {
+    "email": "ruslan.mahin1@gmail.com",
+    "name": "Ruslan Makhin (WiRight)"
+  },
+  "maintainers": [{
+    "email": "ruslan.mahin1@gmail.com",
+    "name": "Ruslan Makhin (WiRight)"
+  }],
+  "galleryBanner": {
+    "color": "#29b768",
+    "theme": "light"
+  },
+  "keywords": [
+    "chrome",
+    "browser",
+    "tab",
+    "dizoft"
+  ],
   "categories": [
     "Other"
   ],
@@ -20,12 +39,10 @@
   ],
   "main": "./out/extension",
   "contributes": {
-    "commands": [
-      {
-        "command": "extension.browsertab",
-        "title": "Open Browser Tab"
-      }
-    ]
+    "commands": [{
+      "command": "extension.browsertab",
+      "title": "Open Browser Tab"
+    }]
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
